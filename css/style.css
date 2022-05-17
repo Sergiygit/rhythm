@@ -355,7 +355,13 @@ h6 {
       -ms-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   overflow: auto;
-  padding: 90px 70px 0px;
+  padding: 110px 70px 0px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  background: rgb(233, 233, 233);
 }
 
 .menu-open .header .menu__body::before {
@@ -364,7 +370,7 @@ h6 {
   position: fixed;
   left: 0;
   top: 0;
-  height: 12%;
+  height: 75px;
   width: 100%;
 }
 
@@ -1526,14 +1532,6 @@ h6 {
     -webkit-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-  }
-
-  .menu-open .header .menu__body {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgb(233, 233, 233);
   }
 
   .icon-menu {
